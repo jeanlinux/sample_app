@@ -60,6 +60,15 @@ module SampleApp
     # Enable the asset pipeline
     config.assets.enabled = true
 
+
+    #configure generators values
+    #config.generators do |g|
+      #g.test_framework :rspec, :fixture => true
+      #g.fixture_replacement :factory_girl_rails, :dir=>"spec/factories"
+    #end
+    
+    
+    
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
